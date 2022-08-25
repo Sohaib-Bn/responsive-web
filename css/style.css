@@ -1,0 +1,599 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #5d6e8b;
+}
+
+  /* sections */
+
+#container {
+    font-family: 'Epilogue', sans-serif;
+    background-color: #FAF8F6;
+}
+ 
+#logo-section {
+    padding: 4.5% 9.5%;
+    position: relative;
+}
+
+#top-section {
+    padding: 4% 9.5%;
+    position: relative;
+    display: flex;
+}
+
+#middel-section {
+    padding: 0 9.5%;
+    position: relative;
+    top: 200px;
+}
+
+#bottom-section {
+    padding: 25% 9.5% 5%;
+    background-color: #F3EDE7;
+}
+
+.all-bottom {
+    display: flex;
+    position: relative;
+    bottom: 10px;
+}
+
+.folowers {
+    padding-top: 10%;
+}
+
+.left {
+    padding-top: 7%;
+}
+
+.intro {
+    display: flex;
+}
+
+  /* btn */
+
+#logo-btn {
+    position: absolute;
+    right: 9.5%;
+    padding: 10px 40px 15px 20px;
+    font-size: 0.95rem;
+    border-radius: 4px;
+}
+
+#logo-btn:hover {
+    background-color: #172339;
+}
+
+#top-btn {
+    color: rgb(234, 233, 233);
+    padding:15px 50px 18px 30px;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    background-color: #172339;
+    border: none;
+}
+
+#top-btn:hover {
+    text-decoration: underline;
+    background-image: -webkit-linear-gradient(left, #A060FF, #CB30E3 , #FFA84E);
+    transition: background-image 5s ease-in-out;
+}
+ 
+
+.flex {
+    margin-right: 8%;
+}
+
+/* images */
+
+.iphone-desktop {
+    z-index: -1;
+}
+
+.iphone-mobile {
+    display: none;
+}
+
+.line-1 {
+    position: relative;
+    left: 60%;
+}
+
+  /* logo */
+
+  .logo {
+    vertical-align: bottom;
+    position: relative;
+    top: 20px;
+}
+
+
+/* titles */
+
+.title-one {
+    font-weight: 500;
+    position: relative;
+    width: 140%;
+    padding-top: 2%;
+    font-size: 393%;
+    line-height: 1.1;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+#title-num {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+/* par */
+
+.par-one {
+    line-height: 1.8;
+    padding-right: 25%;
+    font-size: 1rem;
+    margin-bottom: 10%;
+}
+
+ .par-num {
+    font-size: 0.8rem;
+    margin-bottom:65%;
+    width: 200%;
+}
+
+/* box */
+
+#box {
+    position: relative;
+    padding: 0 12% 0 10%;
+    background-color: #172339;
+    display: flex;
+    /* margin-top: 20%; */
+    border-radius: 15px;
+}
+
+.blur {
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+}
+
+.men-img-desktop {
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+}
+
+.men-img-hide-desktop {
+    visibility: hidden;
+    position: relative;
+}
+
+.men-img-mobile {
+    display: none;
+}
+
+
+.men-img-hide-mobile {
+    display: none;
+}
+  
+.men {
+    margin-right: 4%;
+    height: 540px;
+}
+
+.line-div {
+    margin-right: 6%;
+}
+
+.writing {
+    padding-top: 13%;
+}
+
+.title-two {
+    color: #FFF;
+    margin-bottom: 10%;
+}
+
+.par-two {
+    margin-bottom: 15%;
+    font-size: 1.1rem;
+}
+
+.name ,.work {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.name {
+    margin-bottom: 1%;
+}
+
+.par-two , .name , .work {
+    color: #dad8d8;
+    line-height: 1.6;
+}
+
+.line-div {
+    padding-top: 20%;
+}
+
+.bottom-logo , .bottom-par {
+    margin-right: 33%;
+    width: 33.33%;
+}
+
+.icons {
+    width: 33.33%;
+    
+}
+
+.copy-right {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.copy-right:hover {
+    text-decoration: underline;
+    color: #172339;
+}
+
+.facebook , .twitter {
+    margin-right: 20%;
+}
+
+
+
+/* large-desktop */
+
+@media (min-width:1350px) and (max-width:1440px) {
+
+.title-one {
+    font-size: 505%;
+}
+
+.par-one {
+    font-size: 1.3rem;
+}
+
+}
+
+/* mobile */
+
+@media  (max-width:450px) {
+
+    /* ides */
+
+    #logo-section {
+        padding: 7% 5%;  
+    }
+
+    #top-section {
+        padding: 0% 5%;
+        margin: 0 0 60%;
+        display: block;
+    }
+
+    #middel-section {
+      padding: 0;
+      top: 0;
+      text-align: center;
+    }
+
+    #box {
+        display: inline-block;
+        padding: 0 5% 15% 5%;
+    }
+
+    #bottom-section {
+        padding: 23% 0 20%;
+        text-align: center;
+    }
+
+     /* classes */
+
+    .folowers {
+        padding-top: 25%;
+        text-align: center;
+
+    }
+
+    .number {
+        margin-bottom: 15%;
+    }
+
+    .flex{ 
+        display: block; 
+        margin-right: 0;
+    }
+
+    .line-div {
+        padding-top: 18%;
+    }
+
+    .all-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* btn */
+
+    #logo-btn {
+        position: absolute;
+        right: 5%;
+        padding: 10px 40px 15px 15px;
+        font-size: 0.8rem;
+        border-radius: 4px;
+    }
+
+    #top-btn {
+        padding-right: 55px;
+        margin-bottom: 17%;
+    }
+
+    .line-2 {
+        width: 60px;
+    }
+
+    /* title */
+
+    .title-one {
+        width: 100%;
+        font-size: 255%;
+        margin-bottom: 8%   ;        
+    }
+
+    .title-two {
+        font-size: 2.8rem;
+        margin-bottom: 8%;
+    }
+
+    #title-num {
+        font-size: 2.9rem;
+    }
+
+    /* par */
+    
+   .par-one {
+    padding-right: 0;
+    font-size: 1rem;
+   }
+
+   .par-num {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 0.9rem;
+   }
+
+   .par-two {
+   font-size: 1.2rem;
+   }
+
+   /* img */
+
+   .line-1 {
+    width: 165px;
+    margin-top: 10%;
+    left: 50%;
+   }
+
+   .iphone-desktop {
+    display: none;
+   }
+ 
+   .iphone-mobile {
+    display: inline;
+    width: 100%;
+   }
+
+   .men-img-desktop {
+    display: none;
+   }
+
+   .men-img-hide-desktop {
+    display: none;
+   }
+
+   .men-img-mobile {
+    z-index: 2;
+    display: inline;
+    position: relative;
+    top: -175px;
+   }
+
+   .men.men-img-hide-mobile {
+    display: inline;
+    visibility: hidden;
+   }
+
+   .men {
+    height: 200px;
+    margin: 0;
+   }
+  
+   .writing {
+    margin: 0;
+   }
+
+   .blur {
+    width: 250px;
+    position: relative;
+    bottom: 430px;
+    left: 5px;
+   }
+
+   .bottom-logo , .bottom-par {
+    margin-right: 0;
+    margin-bottom: 10%;
+   }
+
+   .icons {
+    margin: 0;
+   }
+
+   .copy-right {
+    color: rgb(115, 113, 113);
+   }
+
+}
+
+/* tablet  */
+
+@media (min-width:535px) and (max-width:1000px) {
+
+    /* section */
+
+    /* ides */
+
+    #logo-section {
+        padding: 4.5% 4%;
+    }
+
+    #top-section {
+        display: block;
+        padding: 9% 4%;
+    }
+
+    /* classes */
+
+    .folowers {
+        padding-top: 13%;
+        display: flex;
+        text-align: center;
+    }
+
+    .left {
+        width: 60%;
+        z-index: 2;
+    }
+
+    .phone {
+        position: relative;
+        left: 5%;
+    }
+
+    .iphone-desktop {
+        width: 90%;
+    }
+
+    .flex {
+        margin: 0;
+    }
+
+    .one ,.two {
+        margin-right: 10%;
+        width: 33.33%;
+    }
+
+    .three {
+        margin: 0;
+        width: 33.33%;
+    }
+
+    /* title */
+
+    .line-1 {
+        left: 63%;
+        width: 220px;
+    }
+     
+    .title-one {
+        font-size: 3.5rem;
+        width: 125%;
+    }
+
+    .title-two {
+        margin-bottom: 6%;
+        font-size: 2.3rem;
+    }
+    
+    /* par */
+
+    .par-one {
+        padding-right: 20px;
+    }
+
+    .par-num {
+        margin: 0;
+        width: 100%;
+    }
+
+    .par-two {
+        margin-bottom: 9%;
+    }
+
+    /* btn */
+
+    #logo-btn {
+        right: 4%;
+    }
+
+    
+    #box {
+        display: inline-block;
+        padding: 0 5% 10% 5%;
+    }
+
+    #bottom-section {
+        padding: 40% 4% 5%;
+
+    }
+
+    #middel-section {
+        text-align: center;
+        padding: 0 4%;
+    }
+
+    
+    .men-img-desktop {
+        display: none;
+    }
+    
+    .men-img-hide-desktop {
+        display: none;
+    }
+    
+    .men-img-mobile {
+        z-index: 2;
+        display: inline;
+        position: relative;
+        top: -175px;
+    }
+    
+    .men.men-img-hide-mobile {
+        display: inline;
+        visibility: hidden;
+    }
+    
+    .men {
+        height: 200px;
+        margin: 0;
+    }
+      
+    .writing {
+        margin: 0;
+    }
+    
+    .blur {
+        width: 400px;
+        position: absolute;
+        top: -15%;
+        left: 23%;
+    }
+
+    .line-div {
+        padding-top: 13%;
+    }
+
+    .bottom-logo , .bottom-par {
+        margin-right: 15%;
+    }
+}
